@@ -4,7 +4,7 @@ var fragment = document.createDocumentFragment();
 var apiList1 = document.getElementById('PcGirlPhoto');
 var myList2 = document.getElementById('catchMynews1');
 var myApi ="https://test-cms-alpha.herokuapp.com/sites/3/profiles.json"
-var myApi1 ="https://test-cms-alpha.herokuapp.com/sites/9/tweets.json"
+var myApi1 ="https://test-cms-alpha.herokuapp.com/sites/2/tweets.json"
 function loadIndexStaff(){
   let xhr = new XMLHttpRequest();
   xhr.open("GET",myApi,true);
