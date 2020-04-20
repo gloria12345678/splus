@@ -1,0 +1,293 @@
+/*10/8*/
+/*toyo*/
+
+/* .girlPhoto{
+} */
+/* .pc{
+    width: 900px;
+} */
+.tel{
+    width: 600px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.girlPhotoBigBox{
+ 
+    background-size: 52%;
+    background-color: #ffd6d6;
+    background-image: url(../img/photoBack.png);
+    background-repeat: repeat;
+    border: 3px #f988a6 solid;
+    border-radius: 5px;
+}
+.girlPhotoBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.girlPhotoBox img{
+    width: 90%;
+    height: 94%;
+    object-fit: cover;
+}
+.girlPhotoName{
+    width: 95%;
+    height: 12%;
+    background-color: #ffffff;
+    color: #ff3636;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px #ff658d solid;
+}
+.wrap{
+    border: 3px solid #ffba5a;
+    width: 900px;
+    height: 280px;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap ul{
+	overflow: hidden;
+	position:absolute;
+	width: 1600px;
+	left: 0;
+	top: 0;
+	_height:1px;
+}
+
+.wrap ul li{
+	float: left;
+    width: 200px;
+    height: 280px;
+}
+.wrap ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+.indexlink{
+    width: 900px;
+    height: 308px;
+    background-image: url(../img/linkkk.gif);
+    margin-top: 50px;
+}
+.indexlink1{
+    width: 900px;
+    height: 382px;
+    background-image: url(../img/event1.png);
+    margin-top: 50px;
+}
+.event{
+    width: 900px;
+    height: 708px;
+    background-image: url(../img/event.gif);
+}
+.news{
+    /* background-color: #310203; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.newsTitle{
+    height: 10%;
+    background-image: url(../img/news.png);
+}
+.twitterTitle{
+    height: 10%;
+    background-image: url(../img/twitter.png);
+}
+.scheduleTitle{
+    height: 300px;
+    width: 800px;
+    background-image: url(../img/schedule.png);
+}
+.newsText{
+    overflow-y: scroll;
+    border: 2px #ffffff solid;
+    border-radius: 10px;
+    background-image: url(../img/newsBack.png);
+    background-size: auto;
+    background-position: bottom;
+    background-position-x: right;
+}
+.twtter{
+    width: 900px;
+    height: 600px;
+    overflow-y: scroll;
+    border: 2px #ffffff solid;
+    border-radius: 10px;
+    background-image: url(../img/newsBack.png);
+    background-size: auto;
+    background-position: bottom;
+    background-position-x: right;
+}
+.text{
+    height: 420px;
+    width: 95%;
+    margin: 3%;
+    font-size: 25px;
+    color:  #fbdada;
+}
+.text p{
+    width: 100%;
+    color: orange;
+}
+.map{
+    background-image: url(../img/accerss.png);
+}
+.map1{
+    background-image: url(../img/map1.png);
+}
+.line{
+    background-image: url(../img/line.png);
+}
+
+.schedule{
+    width: 900px;
+    padding-top: 210px;
+}
+    .schedulesGirl{
+        width: 100px;
+        float: left;
+    }
+    .schedules{
+        width: 943px;
+        background-color: blanchedalmond;
+    }
+    .schedulesGirls{
+        margin-top: 60px;
+        width: 879px;
+        background-color: blue;
+       
+    }
+    .schedulesGirl{
+        width: 820px;
+        float: left;
+        padding: 21px;
+    }
+    .photo{
+        width: 249px;
+        height: 411px;
+        float: left;
+        background-color:#54536573;;
+        margin: 11px;
+        color: #ffb200;
+        border: 1px #ffffff solid;
+        border-radius: 10px;   
+    }
+    #schedulesGirl0{
+        display: block;
+        
+    }
+    .schedulesGirl{
+        display: none;
+        
+    }
+ 
+    .watermark2{
+        width: 201px;
+        height: 274px;
+        background: top right url(../img/new.png),center url(../img/watermark.png);
+        background-repeat: no-repeat;
+        z-index: 80;
+        position: absolute;
+    }
+    .l{
+        width: 200px;
+        height: 312px;
+        margin-top: 17px;
+        border: 1px #ffffff solid;
+    }
+    .l img{
+        object-fit: cover;
+        width: 100%;
+        height: 96%;
+    }
+    .photo div{
+        font-size: 25px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .pc{
+        height: 1137px;
+    }
+    .Mobile{
+        display: none;
+    }
+    .right{
+        width: 600px;
+        height: 100%;
+        float: right;
+    }
+    .left{
+        width: 300px;
+        height: 100%;
+        float: left;
+    }
+    .focus {
+        width: 900px;
+        height: 320px;
+    }
+    .aaa{
+        width: 900px;
+        height: 518px;
+    }
+    .girlPhoto{
+        float: left;
+        width: 300px;
+        height: 450px;
+    }
+    /* .girlPhotoBox{
+        width: 80%;
+        height: 80%;
+    } */
+    .news{
+        float: right;
+        width: 600px;
+        height: 455px;
+        float: left;
+    }
+    .news1{
+        width: 500px;
+        height: 265px;
+        overflow-y: scroll;
+
+    }
+    .text {
+        height: 238px;
+        width: 95%;
+    }
+    
+   .newsText {
+    width: 570px;
+    height: 455px;
+    }
+    .newsTitle ,.twitterTitle{
+        width: 800px;
+        height: 123px;
+        background-size: contain;
+    }
+    .line ,.map ,.map1{
+        width: 99%;
+        height: 162px;
+        margin: 10px;
+    }
+    .swiper-container {
+        background-size: 52%;
+        background-repeat: repeat;
+        border: 3px #ffffff solid;
+        border-radius: 5px;
+    }
+    .watermark {
+        width: 273px;
+        height: 420px;
+    }

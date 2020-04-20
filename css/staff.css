@@ -1,0 +1,77 @@
+/*10/8*/
+/*toyo*/
+.stafftitle{
+  width: 400px;
+  height: 166px;
+    background-image: url(../img/stafftitle.png);
+}
+#getMyStaff{
+  width: 840px;
+}
+.watermark {
+  width: 201px;
+  height: 263px;
+  position: absolute;
+}
+.date{
+  width: 125px;
+  height: 54px;
+  background-color: #000000;
+  color: #ffe100;
+  float: left;
+  font-size: 31px;
+  margin: 2px;
+  border: 2px #ffffff solid;
+  border-radius: 9px;
+  text-align: center;
+  vertical-align: middle;
+}
+.schedules{
+  width: 943px;
+  background-color: blanchedalmond;
+}
+.schedulesGirls{
+  margin-top: 60px;
+  width: 879px;
+  background-color: blue;
+ 
+}
+.schedulesGirl{
+  width: 820px;
+  float: left;
+  padding: 21px;
+}
+.photo{
+  width: 249px;
+  height: 411px;
+  float: left;
+  background-color:#54536573;;
+  margin: 11px;
+  color: #ffe6ac;
+  border: 1px #ffffff solid;
+  border-radius: 10px;   
+}
+#schedulesGirl0{
+  display: block;
+  
+}
+.schedulesGirl{
+  display: none;
+  
+}
+.l{
+  width: 200px;
+  height: 312px;
+  margin-top: 17px;
+  border: 1px #ffffff solid;
+}
+.l img{
+  object-fit: cover;
+  width: 100%;
+  height: 96%;
+}
+.photo div{
+  font-size: 22px;
+  text-align: center;
+  vertical-align: middle;
+}

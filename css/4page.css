@@ -1,0 +1,106 @@
+/*10/8*/
+/*toyo*/
+.system{
+   width: 80%;
+   height: 980px;
+    background-image: url(../img/system.png);
+  }
+  .system1{
+    width: 796px;
+    color: #fbecc8;
+    font-size: 29px;
+    border: 2px #eace8f solid;
+    padding: 40px;
+    border-top: unset;
+    background-color: #1d1d1d;
+}
+.system1 a{
+  color: #ffd36a;
+  text-decoration: underline;
+}
+  .room{
+    width: 900px;
+    height: 710px;
+    margin-top: 57px;
+    background-image: url(../img/room.png);
+  } 
+  .recruit{
+    width: 70%;
+    border: 4px #fdf258 solid;
+
+  }
+  p{
+    height: 27px;
+    font-size: 19px;
+    background-color: #000000;
+    color: #ffedd6;
+  }
+  .recruit div{
+    width: 96%;
+    height: 58px;
+    border-bottom: 2px #ffffff solid;
+    padding: 5px;
+  }
+  .roomtitle{
+    width: 400px;
+    height: 166px;
+    background-image: url(../img/hotelttitle.png); 
+}
+.accesstitle{
+  width: 400px;
+  height: 166px;
+  background-image: url(../img/linktitle.png); 
+}
+.recruittitle{
+  width: 400px;
+  height: 166px;
+  background-image: url(../img/recruittitle.png); 
+}
+.access{
+  width: 900px;
+  height: 650px;
+  font-size: 35px;
+  color: aliceblue;
+}
+.access div{
+  border-bottom: 2px #ffffff solid;
+}
+.address{
+  width: 900px;
+  height: 63px;
+}
+.googleMap0 ,.googleMap1{
+  width: 85%;
+  border: 4px #fd5a58 solid;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+@media screen and (min-width:700px) {
+  .roomtitle ,.accesstitle ,.recruittitle{
+    height: 107px;
+}
+
+}
+/* @media screen and (min-width:900px) {
+  .roomtitle{
+    width: 400px;
+    height: 130px;
+    background-size: unset;
+    background-position: center;
+}
+.recruit{
+    width: 78%;
+  }
+.recruittitle{
+  width: 400px;
+  height: 130px;
+  background-size: unset;
+  background-position: center;
+  }
+.accesstitle{
+  width: 400px;
+  height: 130px;
+background-size: unset;
+background-position: center;
+}
+} */
